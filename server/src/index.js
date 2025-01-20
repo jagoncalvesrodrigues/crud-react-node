@@ -4,7 +4,7 @@ const port = 3000;
 const cors = require('cors');
 
 const corsOptions = {
-  origin: '*', // Orígenes permitidos (cuando esté en un dominio real, lo cambiaremos por ese dominio)
+  origin: '*', // Orígenes permitidos (cuando esté en un dominio real, lo cambiaremos por ese dominio). Quien puede hacer peticiones
   methods: ['GET', 'POST', 'PATCH', 'DELETE'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization'] // Headers permitidos
 };
