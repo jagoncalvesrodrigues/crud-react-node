@@ -1,12 +1,12 @@
-import FetchApi from './components/fetch-api/FetchApi';
+import { BrowserRouter, Router } from 'react-router-dom';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
-		<div>
+		<BrowserRouter>
 			<GlobalStyles />
-			<FetchApi />
-		</div>
+			<Router />
+		</BrowserRouter>
 	);
 };
 
